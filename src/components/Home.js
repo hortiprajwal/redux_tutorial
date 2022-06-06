@@ -1,12 +1,9 @@
 import React from "react";
 
 function Home(props)
-{   console.warn("home",props)
+{   console.warn("home",props.data)
     return(
         <div>
-            <div className="add-to-cart">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH40FJoJ7wynrb5KZtfRCB2LDCyDnItei2jg&usqp=CAU"/>
-            </div>
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
