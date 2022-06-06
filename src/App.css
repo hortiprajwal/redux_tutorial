@@ -30,7 +30,7 @@
 /* */
 
 .btn-wrapper button {
-  background-color: red;
+  background-color: green;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
@@ -54,7 +54,7 @@
   float: left;
   display: inline-block;
   width: 120px;
-  padding: 20px;
+  padding: 14px;
   height: 70px;
 }
 
@@ -77,6 +77,11 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
+}
+
+button.remove-cart-btn {
+  background-color: red;
+  margin-top: 8px;
 }
 /* */
 @keyframes App-logo-spin {
